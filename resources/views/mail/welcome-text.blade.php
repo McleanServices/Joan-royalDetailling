@@ -1,1 +1,1 @@
-Thank you for registering with Royal Detailing.
+Merci de vous être inscrit chez Royal Detailing.

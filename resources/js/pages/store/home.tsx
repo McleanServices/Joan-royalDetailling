@@ -253,21 +253,21 @@ export default function Home({ collections, reservation }: { collections: Catalo
                         <div className="col-12 col-lg-6">
                             <form className="border p-4" onSubmit={(event) => event.preventDefault()}>
                                 <div className="mb-3">
-                                    <label className="form-label" htmlFor="fullname">Full Name <span className="text-danger">*</span></label>
+                                    <label className="form-label" htmlFor="fullname">Nom complet <span className="text-danger">*</span></label>
                                     <input className="form-control" id="fullname" name="fullname" required />
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 mb-3">
-                                        <label className="form-label" htmlFor="email">Email <span className="text-danger">*</span></label>
+                                        <label className="form-label" htmlFor="email">E-mail <span className="text-danger">*</span></label>
                                         <input className="form-control" id="email" name="email" type="email" required />
                                     </div>
                                     <div className="col-md-6 mb-3">
-                                        <label className="form-label" htmlFor="phone">Phone Number</label>
+                                        <label className="form-label" htmlFor="phone">Téléphone</label>
                                         <input className="form-control" id="phone" name="phone" type="tel" />
                                     </div>
                                 </div>
                                 <div className="mb-3">
-                                    <label className="form-label" htmlFor="subject">Subject <span className="text-danger">*</span></label>
+                                    <label className="form-label" htmlFor="subject">Objet <span className="text-danger">*</span></label>
                                     <input className="form-control" id="subject" name="subject" required />
                                 </div>
                                 <div className="mb-3">
@@ -278,16 +278,16 @@ export default function Home({ collections, reservation }: { collections: Catalo
                             </form>
                         </div>
                         <div className="col-12 col-lg-6">
-                            <h4>Office</h4>
-                            <p className="text-secondary">Please visit us to have a discussion.</p>
+                            <h4>Bureau</h4>
+                            <p className="text-secondary">Venez nous voir pour en discuter.</p>
                             <address className="text-secondary">8014 Edith Blvd NE, Albuquerque, New York, United States</address>
-                            <h4>Phone</h4>
+                            <h4>Téléphone</h4>
                             <p><a className="link-secondary text-decoration-none" href="tel:+15057922430">(505) 792-2430</a></p>
-                            <h4>Email</h4>
-                            <p><a className="link-secondary text-decoration-none" href="mailto:demo@yourdomain.com">demo@yourdomain.com</a></p>
-                            <h4>Opening Hours</h4>
-                            <p className="text-secondary mb-1">Mon - Fri · 9am - 5pm</p>
-                            <p className="text-secondary">Sat - Sun · 9am - 2pm</p>
+                            <h4>E-mail</h4>
+                            <p><a className="link-secondary text-decoration-none" href="mailto:royaldetailling@mail.com">royaldetailling@mail.com</a></p>
+                            <h4>Horaires d&apos;ouverture</h4>
+                            <p className="text-secondary mb-1">Lun – Ven · 9h – 17h</p>
+                            <p className="text-secondary">Sam – Dim · 9h – 14h</p>
                         </div>
                     </div>
                 </div>

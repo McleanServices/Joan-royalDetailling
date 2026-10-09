@@ -18,7 +18,7 @@ class WelcomeMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Welcome to Royal Detailing',
+            subject: 'Bienvenue chez Royal Detailing',
         );
     }
 

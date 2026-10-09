@@ -1,1 +1,1 @@
-<p>Thank you for registering with <strong>Royal Detailing</strong>.</p>
+<p>Merci de vous être inscrit chez <strong>Royal Detailing</strong>.</p>
