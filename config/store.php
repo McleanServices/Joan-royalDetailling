@@ -2,9 +2,9 @@
 
 return [
 
-    'phone' => env('STORE_PHONE', '+33600000000'),
+    'phone' => env('STORE_PHONE', '+590690112233'),
 
-    'phone_display' => env('STORE_PHONE_DISPLAY', '+33 6 00 00 00 00'),
+    'phone_display' => env('STORE_PHONE_DISPLAY', '+590 690 11 22 33'),
 
     'whatsapp' => env('STORE_WHATSAPP', '33600000000'),
 

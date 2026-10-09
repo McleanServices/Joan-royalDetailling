@@ -7,7 +7,7 @@ type StoreTheme = 'light' | 'dark';
 
 function currentTheme(): StoreTheme {
     if (typeof document === 'undefined') {
-        return 'dark';
+        return 'light';
     }
 
     return document.documentElement.dataset.storeTheme === 'light' ? 'light' : 'dark';

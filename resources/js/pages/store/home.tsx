@@ -136,7 +136,7 @@ export default function Home({ collections, reservation }: { collections: Catalo
                                 <span className="highlight">avez besoin</span>
                             </h1>
                             <p className="hero-subtitle">
-                                Nettoyage, entretien, services spécialisés et plus encore — réservation rapide en ligne, sans attente.
+                                Nettoyage, entretien, services spécialisés et plus encore  réservation rapide en ligne, sans attente.
                             </p>
                             <div className="hero-actions">
                                 <a href="#services" className="btn-hero-primary">
@@ -148,7 +148,6 @@ export default function Home({ collections, reservation }: { collections: Catalo
                             </div>
                             <div className="hero-trust">
                                 <div className="trust-item"><i className="bi bi-shield-fill-check" /> Produits professionnels</div>
-                                <div className="trust-item"><i className="bi bi-star-fill" /> +500 avis 5 étoiles</div>
                                 <div className="trust-item"><i className="bi bi-geo-alt-fill" /> Intervention à domicile</div>
                             </div>
                         </div>
@@ -206,7 +205,7 @@ export default function Home({ collections, reservation }: { collections: Catalo
                                         <h5>{active.name}</h5>
                                         <p>{active.description}</p>
                                         <div className="d-flex justify-content-center">
-                                            <a href="tel:+33600000000" className="btn-cta" onClick={() => setActive(null)}>
+                                            <a href="tel:+590690112233" className="btn-cta" onClick={() => setActive(null)}>
                                                 <i className="bi bi-telephone-fill" /> {active.key === 'autres' ? 'Nous contacter' : 'Demander un devis'}
                                             </a>
                                         </div>
@@ -278,11 +277,8 @@ export default function Home({ collections, reservation }: { collections: Catalo
                             </form>
                         </div>
                         <div className="col-12 col-lg-6">
-                            <h4>Bureau</h4>
-                            <p className="text-secondary">Venez nous voir pour en discuter.</p>
-                            <address className="text-secondary">8014 Edith Blvd NE, Albuquerque, New York, United States</address>
                             <h4>Téléphone</h4>
-                            <p><a className="link-secondary text-decoration-none" href="tel:+15057922430">(505) 792-2430</a></p>
+                            <p><a className="link-secondary text-decoration-none" href="tel:+590690112233">+590 690 11 22 33</a></p>
                             <h4>E-mail</h4>
                             <p><a className="link-secondary text-decoration-none" href="mailto:royaldetailling@mail.com">royaldetailling@mail.com</a></p>
                             <h4>Horaires d&apos;ouverture</h4>
